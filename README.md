@@ -31,7 +31,7 @@ Gimos can sometimes crash, so I do not recommend installing Gimos right now.
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
-This project is licensed under the MIT License. You can view the full license [here](https://github.com/ZohanHaqu/Gimos-Browser/LICENSE).
+This project is licensed under the MIT License. You can view the full license [here](https://github.com/ZohanHaqu/Gimos-Browser/blob/master/LICENSE).
 
 
 
