@@ -1,0 +1,9 @@
+﻿<Window x:Class="GimosBrowser.DebugLog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Debug Log" Height="400" Width="600">
+    <Grid>
+        <TextBox x:Name="LogTextBox" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10" 
+                 IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="12"/>
+    </Grid>
+</Window>

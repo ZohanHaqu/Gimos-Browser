@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimos New Tab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #FFD700;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .search-box {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #b8860b;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #b8860b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: #8b6508;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Gimos</h1>
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search the web...">
+            <button onclick="searchWeb()">Search</button>
+        </div>
+    </div>
+
+    <script>
+        function searchWeb() {
+            var query = document.getElementById("search").value;
+            if (query) {
+                window.location.href = "https://www.bing.com/search?q=" + encodeURIComponent(query);
+            }
+        }
+    </script>
+</body>
+</html>
